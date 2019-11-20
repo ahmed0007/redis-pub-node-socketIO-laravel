@@ -1,0 +1,21 @@
+{
+  "name": "worker-location",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ATH",
+  "license": "MIT",
+  "devDependencies": {
+    "ioredis": "^4.14.1",
+    "redis": "^2.8.0",
+    "bluebird": "^3.5.5"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
